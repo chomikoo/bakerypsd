@@ -11,11 +11,6 @@ section {
 }
 
 
-@include  media-breakpoint-up(md) {
-	section {
-		padding: 150px 0;
-	}
-}
 .absolute-center {
 	position: absolute;
 	top: 50%;

@@ -398,7 +398,7 @@
 
 
 .prices {
-	background: url(../images/menu_bg.png);
+	background: url(../images/menu_bg.jpg);
 	.section-title {
 		letter-spacing: 4px;
 	}
@@ -406,10 +406,15 @@
 		margin-bottom: 70px;
 	}
 }
+@include media-breakpoint-up(lg) {
+	.prices {
+		padding: 150px 0;
+	}
+}
 
 .dish {
 	margin-bottom: 45px;
-
+	text-shadow: 5px 5px 20px $black;
 	&__name {
 		font-family: $f-alegreya;
 		font-weight: $bold;
@@ -444,6 +449,7 @@
 	padding: 80px 30px;
 	
 	background-size: 100% 100% !important;
+	
 	&__head {
 		display: flex;
 		justify-content: space-around;
