@@ -12,8 +12,6 @@ $(document).ready(function(){
 
  	function paralax() {
  		let wScroll = $(window).scrollTop();
- 		console.log(`wScroll ${wScroll}`);
-
  		$('.header').css('opacity', `${1-(wScroll * 0.001)}`);
  	}
 
